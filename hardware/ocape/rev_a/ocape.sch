@@ -9007,6 +9007,236 @@ source: http://www.mlelectronic.com/shrouded-headers/shrouded-headers-100.asp</d
 </deviceset>
 </devicesets>
 </library>
+<library name="holes">
+<description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="2,8-PAD">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 2.8 mm, round</description>
+<wire x1="0" y1="2.921" x2="0" y2="2.667" width="0.0508" layer="21"/>
+<wire x1="0" y1="-2.667" x2="0" y2="-2.921" width="0.0508" layer="21"/>
+<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2.921" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="3.175" width="0.8128" layer="39"/>
+<circle x="0" y="0" radius="3.175" width="0.8128" layer="40"/>
+<circle x="0" y="0" radius="3.175" width="0.8128" layer="43"/>
+<circle x="0" y="0" radius="1.5" width="0.2032" layer="21"/>
+<pad name="B2,8" x="0" y="0" drill="2.8" diameter="5.334"/>
+</package>
+<package name="3,0-PAD">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 3.0 mm, round</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="39"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="40"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="43"/>
+<circle x="0" y="0" radius="1.6" width="0.2032" layer="21"/>
+<pad name="B3,0" x="0" y="0" drill="3" diameter="5.842"/>
+<text x="-1.27" y="-3.81" size="1.27" layer="48">3,0</text>
+</package>
+<package name="3,2-PAD">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 3.2 mm, round</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.683" width="1.27" layer="39"/>
+<circle x="0" y="0" radius="3.683" width="1.27" layer="40"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="43"/>
+<circle x="0" y="0" radius="1.7" width="0.1524" layer="21"/>
+<pad name="B3,2" x="0" y="0" drill="3.2" diameter="5.842"/>
+<text x="-1.27" y="-3.81" size="1.27" layer="48">3,2</text>
+</package>
+<package name="3,3-PAD">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 3.3 mm, round</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.683" width="1.27" layer="39"/>
+<circle x="0" y="0" radius="3.683" width="1.27" layer="40"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="43"/>
+<circle x="0" y="0" radius="1.7" width="0.2032" layer="21"/>
+<pad name="B3,3" x="0" y="0" drill="3.3" diameter="5.842"/>
+</package>
+<package name="3,6-PAD">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 3.6 mm, round</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.683" width="1.397" layer="39"/>
+<circle x="0" y="0" radius="3.683" width="1.397" layer="40"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="43"/>
+<circle x="0" y="0" radius="1.9" width="0.2032" layer="21"/>
+<pad name="B3,6" x="0" y="0" drill="3.6" diameter="5.842"/>
+</package>
+<package name="4,1-PAD">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 4.1 mm, round</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="4.572" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="5.08" width="2" layer="43"/>
+<circle x="0" y="0" radius="2.15" width="0.2032" layer="21"/>
+<pad name="B4,1" x="0" y="0" drill="4.1" diameter="8"/>
+</package>
+<package name="4,3-PAD">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 4.3 mm, round</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="43"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="39"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="40"/>
+<circle x="0" y="0" radius="2.25" width="0.1524" layer="21"/>
+<pad name="B4,3" x="0" y="0" drill="4.3" diameter="9"/>
+</package>
+<package name="4,5-PAD">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 4.5 mm, round</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="43"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="39"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="40"/>
+<circle x="0" y="0" radius="2.35" width="0.1524" layer="21"/>
+<pad name="B4,5" x="0" y="0" drill="4.5" diameter="9"/>
+</package>
+<package name="5,0-PAD">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 5.0 mm, round</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="43"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="39"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="40"/>
+<circle x="0" y="0" radius="2.6" width="0.1524" layer="21"/>
+<pad name="B5" x="0" y="0" drill="5" diameter="9"/>
+</package>
+<package name="5,5-PAD">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 5.5 mm, round</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="43"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="39"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="40"/>
+<circle x="0" y="0" radius="2.85" width="0.1524" layer="21"/>
+<pad name="B5,5" x="0" y="0" drill="5.5" diameter="9"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MOUNT-PAD">
+<wire x1="0.254" y1="2.032" x2="2.032" y2="0.254" width="1.016" layer="94" curve="-75.749967" cap="flat"/>
+<wire x1="-2.032" y1="0.254" x2="-0.254" y2="2.032" width="1.016" layer="94" curve="-75.749967" cap="flat"/>
+<wire x1="-2.032" y1="-0.254" x2="-0.254" y2="-2.032" width="1.016" layer="94" curve="75.749967" cap="flat"/>
+<wire x1="0.254" y1="-2.032" x2="2.032" y2="-0.254" width="1.016" layer="94" curve="75.749967" cap="flat"/>
+<circle x="0" y="0" radius="1.524" width="0.0508" layer="94"/>
+<text x="2.794" y="0.5842" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.794" y="-2.4638" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="MOUNT" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MOUNT-PAD-ROUND" prefix="H">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt;, round</description>
+<gates>
+<gate name="G$1" symbol="MOUNT-PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="2.8" package="2,8-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B2,8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.0" package="3,0-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B3,0"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.2" package="3,2-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B3,2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.3" package="3,3-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B3,3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.6" package="3,6-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B3,6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4.1" package="4,1-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B4,1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4.3" package="4,3-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B4,3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4.5" package="4,5-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B4,5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5.0" package="5,0-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5.5" package="5,5-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B5,5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="Brad Campbell"/>
@@ -9038,6 +9268,11 @@ source: http://www.mlelectronic.com/shrouded-headers/shrouded-headers-100.asp</d
 <part name="J1" library="dp_devices" deviceset="CON_HEADER_2X05" device="-PTH+SHROUDED_A"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="LOGO1" library="logos" deviceset="UMICH_SOLID" device="_SMALL"/>
+<part name="H5" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.2"/>
+<part name="H6" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.2"/>
+<part name="H7" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.2"/>
+<part name="H8" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.2"/>
+<part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9052,7 +9287,7 @@ source: http://www.mlelectronic.com/shrouded-headers/shrouded-headers-100.asp</d
 <instance part="P9/P8" gate="G$1" x="60.96" y="99.06"/>
 <instance part="U1" gate="G$1" x="66.04" y="30.48"/>
 <instance part="SUPPLY1" gate="G$1" x="58.42" y="53.34"/>
-<instance part="GND7" gate="1" x="58.42" y="20.32"/>
+<instance part="GND7" gate="1" x="55.88" y="20.32"/>
 <instance part="GND8" gate="1" x="116.84" y="33.02"/>
 <instance part="C1" gate="G$1" x="116.84" y="45.72">
 <attribute name="DIGIKEY" x="116.84" y="45.72" size="1.27" layer="96" display="off"/>
@@ -9066,6 +9301,11 @@ source: http://www.mlelectronic.com/shrouded-headers/shrouded-headers-100.asp</d
 <instance part="J1" gate="J" x="182.88" y="63.5"/>
 <instance part="JP1" gate="G$1" x="182.88" y="45.72" rot="R180"/>
 <instance part="LOGO1" gate="G$1" x="223.52" y="81.28"/>
+<instance part="H5" gate="G$1" x="7.62" y="53.34"/>
+<instance part="H6" gate="G$1" x="7.62" y="48.26"/>
+<instance part="H7" gate="G$1" x="7.62" y="43.18"/>
+<instance part="H8" gate="G$1" x="7.62" y="38.1"/>
+<instance part="GND1" gate="1" x="2.54" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -9130,14 +9370,32 @@ source: http://www.mlelectronic.com/shrouded-headers/shrouded-headers-100.asp</d
 <label x="180.34" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="A1"/>
-<wire x1="60.96" y1="35.56" x2="58.42" y2="35.56" width="0.2032" layer="91"/>
-<pinref part="U1" gate="G$1" pin="A2"/>
-<wire x1="60.96" y1="33.02" x2="58.42" y2="33.02" width="0.2032" layer="91"/>
-<wire x1="58.42" y1="35.56" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
-<junction x="58.42" y="33.02"/>
+<pinref part="U1" gate="G$1" pin="A0"/>
+<wire x1="60.96" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="38.1" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="58.42" y1="33.02" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="35.56" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="A1"/>
+<wire x1="60.96" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
+<junction x="55.88" y="35.56"/>
+</segment>
+<segment>
+<pinref part="H8" gate="G$1" pin="MOUNT"/>
+<wire x1="5.08" y1="38.1" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="38.1" x2="2.54" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="H7" gate="G$1" pin="MOUNT"/>
+<wire x1="2.54" y1="43.18" x2="5.08" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="H6" gate="G$1" pin="MOUNT"/>
+<wire x1="5.08" y1="48.26" x2="2.54" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="48.26" x2="2.54" y2="43.18" width="0.1524" layer="91"/>
+<junction x="2.54" y="43.18"/>
+<pinref part="H5" gate="G$1" pin="MOUNT"/>
+<wire x1="5.08" y1="53.34" x2="2.54" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="53.34" x2="2.54" y2="48.26" width="0.1524" layer="91"/>
+<junction x="2.54" y="48.26"/>
+<wire x1="2.54" y1="38.1" x2="2.54" y2="33.02" width="0.1524" layer="91"/>
+<junction x="2.54" y="38.1"/>
+<pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -9189,9 +9447,9 @@ source: http://www.mlelectronic.com/shrouded-headers/shrouded-headers-100.asp</d
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
-<pinref part="U1" gate="G$1" pin="A0"/>
-<wire x1="58.42" y1="38.1" x2="60.96" y2="38.1" width="0.2032" layer="91"/>
-<wire x1="58.42" y1="53.34" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="53.34" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="A2"/>
+<wire x1="58.42" y1="33.02" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VCC"/>
@@ -9434,6 +9692,11 @@ source: http://www.mlelectronic.com/shrouded-headers/shrouded-headers-100.asp</d
 <pinref part="J1" gate="J" pin="10"/>
 <wire x1="193.04" y1="58.42" x2="190.5" y2="58.42" width="0.1524" layer="91"/>
 <label x="193.04" y="58.42" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="P9/P8" gate="G$1" pin="UART4_TXD"/>
+<wire x1="55.88" y1="142.24" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
+<label x="38.1" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$119" class="0">
