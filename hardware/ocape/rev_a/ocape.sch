@@ -9266,7 +9266,7 @@ source: http://www.mlelectronic.com/shrouded-headers/shrouded-headers-100.asp</d
 <attribute name="DIGIKEY" value="RHM1.00MCDCT-ND"/>
 </part>
 <part name="J1" library="dp_devices" deviceset="CON_HEADER_2X05" device="-PTH+SHROUDED_A"/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="J3" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="LOGO1" library="logos" deviceset="UMICH_SOLID" device="_SMALL"/>
 <part name="H5" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.2"/>
 <part name="H6" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.2"/>
@@ -9279,33 +9279,41 @@ source: http://www.mlelectronic.com/shrouded-headers/shrouded-headers-100.asp</d
 <plain>
 <text x="129.54" y="167.64" size="3.81" layer="98" align="bottom-center">BeagleBone Black Header</text>
 <text x="73.66" y="76.2" size="3.81" layer="98" align="bottom-center">EEPROM</text>
-<text x="43.18" y="50.8" size="1.27" layer="98">Pullups on GAP</text>
+<text x="35.56" y="68.58" size="1.27" layer="98">Pullups on GAP</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
 <instance part="P9/P8" gate="G$1" x="60.96" y="99.06"/>
-<instance part="U1" gate="G$1" x="66.04" y="30.48"/>
-<instance part="SUPPLY1" gate="G$1" x="58.42" y="53.34"/>
-<instance part="GND7" gate="1" x="55.88" y="20.32"/>
-<instance part="GND8" gate="1" x="116.84" y="33.02"/>
-<instance part="C1" gate="G$1" x="116.84" y="45.72">
-<attribute name="DIGIKEY" x="116.84" y="45.72" size="1.27" layer="96" display="off"/>
+<instance part="U1" gate="G$1" x="58.42" y="48.26"/>
+<instance part="SUPPLY1" gate="G$1" x="50.8" y="71.12"/>
+<instance part="GND7" gate="1" x="48.26" y="38.1"/>
+<instance part="GND8" gate="1" x="109.22" y="50.8"/>
+<instance part="C1" gate="G$1" x="109.22" y="63.5">
+<attribute name="DIGIKEY" x="109.22" y="63.5" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="116.84" y="53.34"/>
-<instance part="J2" gate="G$1" x="96.52" y="25.4" rot="R270"/>
-<instance part="GND9" gate="1" x="88.9" y="20.32"/>
-<instance part="R1" gate="G$1" x="104.14" y="33.02" rot="R180">
-<attribute name="DIGIKEY" x="104.14" y="33.02" size="1.27" layer="96" rot="R180" display="off"/>
+<instance part="SUPPLY2" gate="G$1" x="109.22" y="71.12"/>
+<instance part="J2" gate="G$1" x="88.9" y="43.18" rot="R270"/>
+<instance part="GND9" gate="1" x="81.28" y="38.1"/>
+<instance part="R1" gate="G$1" x="96.52" y="50.8" rot="R180">
+<attribute name="DIGIKEY" x="96.52" y="50.8" size="1.27" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="J1" gate="J" x="182.88" y="63.5"/>
-<instance part="JP1" gate="G$1" x="182.88" y="45.72" rot="R180"/>
-<instance part="LOGO1" gate="G$1" x="223.52" y="81.28"/>
-<instance part="H5" gate="G$1" x="7.62" y="53.34"/>
-<instance part="H6" gate="G$1" x="7.62" y="48.26"/>
-<instance part="H7" gate="G$1" x="7.62" y="43.18"/>
-<instance part="H8" gate="G$1" x="7.62" y="38.1"/>
-<instance part="GND1" gate="1" x="2.54" y="30.48"/>
+<instance part="J3" gate="G$1" x="182.88" y="45.72" rot="R180"/>
+<instance part="LOGO1" gate="G$1" x="231.14" y="172.72"/>
+<instance part="H5" gate="G$1" x="236.22" y="58.42" smashed="yes">
+<attribute name="NAME" x="239.014" y="59.0042" size="1.778" layer="95"/>
+</instance>
+<instance part="H6" gate="G$1" x="236.22" y="53.34" smashed="yes">
+<attribute name="NAME" x="239.014" y="53.9242" size="1.778" layer="95"/>
+</instance>
+<instance part="H7" gate="G$1" x="236.22" y="48.26" smashed="yes">
+<attribute name="NAME" x="239.014" y="48.8442" size="1.778" layer="95"/>
+</instance>
+<instance part="H8" gate="G$1" x="236.22" y="43.18" smashed="yes">
+<attribute name="NAME" x="239.014" y="43.7642" size="1.778" layer="95"/>
+</instance>
+<instance part="GND1" gate="1" x="231.14" y="35.56"/>
 </instances>
 <busses>
 </busses>
@@ -9348,20 +9356,20 @@ source: http://www.mlelectronic.com/shrouded-headers/shrouded-headers-100.asp</d
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VSS"/>
-<wire x1="88.9" y1="40.64" x2="109.22" y2="40.64" width="0.2032" layer="91"/>
-<wire x1="109.22" y1="40.64" x2="109.22" y2="38.1" width="0.2032" layer="91"/>
-<wire x1="109.22" y1="38.1" x2="116.84" y2="38.1" width="0.2032" layer="91"/>
+<wire x1="81.28" y1="58.42" x2="101.6" y2="58.42" width="0.2032" layer="91"/>
+<wire x1="101.6" y1="58.42" x2="101.6" y2="55.88" width="0.2032" layer="91"/>
+<wire x1="101.6" y1="55.88" x2="109.22" y2="55.88" width="0.2032" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="116.84" y1="40.64" x2="116.84" y2="38.1" width="0.2032" layer="91"/>
-<junction x="116.84" y="38.1"/>
-<wire x1="116.84" y1="38.1" x2="116.84" y2="35.56" width="0.2032" layer="91"/>
-<junction x="116.84" y="40.64"/>
-<junction x="116.84" y="35.56"/>
+<wire x1="109.22" y1="58.42" x2="109.22" y2="55.88" width="0.2032" layer="91"/>
+<junction x="109.22" y="55.88"/>
+<wire x1="109.22" y1="55.88" x2="109.22" y2="53.34" width="0.2032" layer="91"/>
+<junction x="109.22" y="58.42"/>
+<junction x="109.22" y="53.34"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="22.86" x2="88.9" y2="22.86" width="0.2032" layer="91"/>
+<wire x1="86.36" y1="40.64" x2="81.28" y2="40.64" width="0.2032" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -9371,30 +9379,30 @@ source: http://www.mlelectronic.com/shrouded-headers/shrouded-headers-100.asp</d
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="A0"/>
-<wire x1="60.96" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="38.1" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="55.88" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="55.88" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="55.88" y1="35.56" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="53.34" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="A1"/>
-<wire x1="60.96" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
-<junction x="55.88" y="35.56"/>
+<wire x1="53.34" y1="53.34" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
+<junction x="48.26" y="53.34"/>
 </segment>
 <segment>
 <pinref part="H8" gate="G$1" pin="MOUNT"/>
-<wire x1="5.08" y1="38.1" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="38.1" x2="2.54" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="43.18" x2="231.14" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="43.18" x2="231.14" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="H7" gate="G$1" pin="MOUNT"/>
-<wire x1="2.54" y1="43.18" x2="5.08" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="48.26" x2="233.68" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="H6" gate="G$1" pin="MOUNT"/>
-<wire x1="5.08" y1="48.26" x2="2.54" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="48.26" x2="2.54" y2="43.18" width="0.1524" layer="91"/>
-<junction x="2.54" y="43.18"/>
+<wire x1="233.68" y1="53.34" x2="231.14" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="53.34" x2="231.14" y2="48.26" width="0.1524" layer="91"/>
+<junction x="231.14" y="48.26"/>
 <pinref part="H5" gate="G$1" pin="MOUNT"/>
-<wire x1="5.08" y1="53.34" x2="2.54" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="53.34" x2="2.54" y2="48.26" width="0.1524" layer="91"/>
-<junction x="2.54" y="48.26"/>
-<wire x1="2.54" y1="38.1" x2="2.54" y2="33.02" width="0.1524" layer="91"/>
-<junction x="2.54" y="38.1"/>
+<wire x1="233.68" y1="58.42" x2="231.14" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="58.42" x2="231.14" y2="53.34" width="0.1524" layer="91"/>
+<junction x="231.14" y="53.34"/>
+<wire x1="231.14" y1="43.18" x2="231.14" y2="38.1" width="0.1524" layer="91"/>
+<junction x="231.14" y="43.18"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -9447,21 +9455,21 @@ source: http://www.mlelectronic.com/shrouded-headers/shrouded-headers-100.asp</d
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
-<wire x1="58.42" y1="53.34" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="71.12" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="A2"/>
-<wire x1="58.42" y1="33.02" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="50.8" x2="53.34" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VCC"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="48.26" x2="111.76" y2="48.26" width="0.2032" layer="91"/>
-<wire x1="111.76" y1="48.26" x2="116.84" y2="48.26" width="0.2032" layer="91"/>
-<wire x1="116.84" y1="48.26" x2="116.84" y2="53.34" width="0.2032" layer="91"/>
+<wire x1="81.28" y1="66.04" x2="104.14" y2="66.04" width="0.2032" layer="91"/>
+<wire x1="104.14" y1="66.04" x2="109.22" y2="66.04" width="0.2032" layer="91"/>
+<wire x1="109.22" y1="66.04" x2="109.22" y2="71.12" width="0.2032" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
-<wire x1="109.22" y1="33.02" x2="111.76" y2="33.02" width="0.2032" layer="91"/>
-<wire x1="111.76" y1="33.02" x2="111.76" y2="48.26" width="0.2032" layer="91"/>
-<junction x="111.76" y="48.26"/>
-<junction x="116.84" y="48.26"/>
+<wire x1="101.6" y1="50.8" x2="104.14" y2="50.8" width="0.2032" layer="91"/>
+<wire x1="104.14" y1="50.8" x2="104.14" y2="66.04" width="0.2032" layer="91"/>
+<junction x="104.14" y="66.04"/>
+<junction x="109.22" y="66.04"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -9528,8 +9536,8 @@ source: http://www.mlelectronic.com/shrouded-headers/shrouded-headers-100.asp</d
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SDA"/>
-<wire x1="60.96" y1="43.18" x2="53.34" y2="43.18" width="0.2032" layer="91"/>
-<label x="53.34" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="53.34" y1="60.96" x2="45.72" y2="60.96" width="0.2032" layer="91"/>
+<label x="45.72" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -9540,8 +9548,8 @@ source: http://www.mlelectronic.com/shrouded-headers/shrouded-headers-100.asp</d
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SCL"/>
-<wire x1="60.96" y1="48.26" x2="53.34" y2="48.26" width="0.2032" layer="91"/>
-<label x="53.34" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="53.34" y1="66.04" x2="45.72" y2="66.04" width="0.2032" layer="91"/>
+<label x="45.72" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CCA0" class="0">
@@ -9666,13 +9674,13 @@ source: http://www.mlelectronic.com/shrouded-headers/shrouded-headers-100.asp</d
 <net name="N$31" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="WP"/>
-<wire x1="88.9" y1="33.02" x2="91.44" y2="33.02" width="0.2032" layer="91"/>
-<wire x1="91.44" y1="33.02" x2="99.06" y2="33.02" width="0.2032" layer="91"/>
-<wire x1="91.44" y1="25.4" x2="91.44" y2="33.02" width="0.2032" layer="91"/>
+<wire x1="81.28" y1="50.8" x2="83.82" y2="50.8" width="0.2032" layer="91"/>
+<wire x1="83.82" y1="50.8" x2="91.44" y2="50.8" width="0.2032" layer="91"/>
+<wire x1="83.82" y1="43.18" x2="83.82" y2="50.8" width="0.2032" layer="91"/>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="25.4" x2="91.44" y2="25.4" width="0.2032" layer="91"/>
+<wire x1="86.36" y1="43.18" x2="83.82" y2="43.18" width="0.2032" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<junction x="91.44" y="33.02"/>
+<junction x="83.82" y="50.8"/>
 </segment>
 </net>
 <net name="!OBSERVER_CS" class="0">
@@ -9682,7 +9690,7 @@ source: http://www.mlelectronic.com/shrouded-headers/shrouded-headers-100.asp</d
 <label x="193.04" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="45.72" x2="190.5" y2="45.72" width="0.1524" layer="91"/>
 <label x="190.5" y="45.72" size="1.27" layer="95" xref="yes"/>
 </segment>

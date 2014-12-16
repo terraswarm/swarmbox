@@ -3512,8 +3512,11 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <library name="headers">
 <description>&lt;b&gt;LAB11&lt;/b&gt; - Headers for pins and wires.</description>
 <packages>
-<package name="2X6/SMD">
-<smd name="1" x="-6.35" y="-3.556" dx="1.016" dy="1.905" layer="1"/>
+<package name="2X8/SMD">
+<smd name="1" x="-8.89" y="-3.556" dx="1.016" dy="1.905" layer="1"/>
+<wire x1="-10.16" y1="-1.905" x2="-9.525" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-9.525" y1="-2.54" x2="-8.255" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-8.255" y1="-2.54" x2="-7.62" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-7.62" y1="-1.905" x2="-6.985" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="-6.985" y1="-2.54" x2="-5.715" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="-5.715" y1="-2.54" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
@@ -3529,10 +3532,10 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <wire x1="2.54" y1="-1.905" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="3.175" y1="-2.54" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="4.445" y1="-2.54" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="5.715" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="-2.54" x2="6.985" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="-2.54" x2="7.62" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-1.905" x2="-7.62" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="-1.905" x2="-10.16" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="1.905" x2="-9.525" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-9.525" y1="2.54" x2="-8.255" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-8.255" y1="2.54" x2="-7.62" y2="1.905" width="0.1524" layer="21"/>
 <wire x1="-7.62" y1="1.905" x2="-6.985" y2="2.54" width="0.1524" layer="21"/>
 <wire x1="-6.985" y1="2.54" x2="-5.715" y2="2.54" width="0.1524" layer="21"/>
 <wire x1="-5.715" y1="2.54" x2="-5.08" y2="1.905" width="0.1524" layer="21"/>
@@ -3548,64 +3551,87 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <wire x1="2.54" y1="1.905" x2="3.175" y2="2.54" width="0.1524" layer="21"/>
 <wire x1="3.175" y1="2.54" x2="4.445" y2="2.54" width="0.1524" layer="21"/>
 <wire x1="4.445" y1="2.54" x2="5.08" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="1.905" x2="5.715" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="2.54" x2="6.985" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="2.54" x2="7.62" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="1.905" x2="-7.62" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="1.905" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-2.54" y1="1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="0" y1="1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="1.905" x2="7.62" y2="-1.905" width="0.1524" layer="21"/>
-<smd name="2" x="-6.35" y="3.556" dx="1.016" dy="1.905" layer="1"/>
-<smd name="3" x="-3.81" y="-3.556" dx="1.016" dy="1.905" layer="1"/>
-<smd name="4" x="-3.81" y="3.556" dx="1.016" dy="1.905" layer="1"/>
-<smd name="5" x="-1.27" y="-3.556" dx="1.016" dy="1.905" layer="1"/>
-<smd name="6" x="-1.27" y="3.556" dx="1.016" dy="1.905" layer="1"/>
-<smd name="7" x="1.27" y="-3.556" dx="1.016" dy="1.905" layer="1"/>
-<smd name="8" x="1.27" y="3.556" dx="1.016" dy="1.905" layer="1"/>
-<smd name="9" x="3.81" y="-3.556" dx="1.016" dy="1.905" layer="1"/>
-<smd name="10" x="3.81" y="3.556" dx="1.016" dy="1.905" layer="1"/>
-<smd name="11" x="6.35" y="-3.556" dx="1.016" dy="1.905" layer="1"/>
-<smd name="12" x="6.35" y="3.556" dx="1.016" dy="1.905" layer="1"/>
+<smd name="2" x="-8.89" y="3.556" dx="1.016" dy="1.905" layer="1"/>
+<smd name="3" x="-6.35" y="-3.556" dx="1.016" dy="1.905" layer="1"/>
+<smd name="4" x="-6.35" y="3.556" dx="1.016" dy="1.905" layer="1"/>
+<smd name="5" x="-3.81" y="-3.556" dx="1.016" dy="1.905" layer="1"/>
+<smd name="6" x="-3.81" y="3.556" dx="1.016" dy="1.905" layer="1"/>
+<smd name="7" x="-1.27" y="-3.556" dx="1.016" dy="1.905" layer="1"/>
+<smd name="8" x="-1.27" y="3.556" dx="1.016" dy="1.905" layer="1"/>
+<smd name="9" x="1.27" y="-3.556" dx="1.016" dy="1.905" layer="1"/>
+<smd name="10" x="1.27" y="3.556" dx="1.016" dy="1.905" layer="1"/>
+<smd name="11" x="3.81" y="-3.556" dx="1.016" dy="1.905" layer="1"/>
+<smd name="12" x="3.81" y="3.556" dx="1.016" dy="1.905" layer="1"/>
 <text x="0" y="5.08" size="1.016" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-5.842" size="1.016" layer="27" font="vector" ratio="12" align="bottom-center">&gt;VALUE</text>
+<smd name="13" x="6.35" y="-3.556" dx="1.016" dy="1.905" layer="1"/>
+<smd name="14" x="6.35" y="3.556" dx="1.016" dy="1.905" layer="1"/>
+<smd name="15" x="8.89" y="-3.556" dx="1.016" dy="1.905" layer="1"/>
+<smd name="16" x="8.89" y="3.556" dx="1.016" dy="1.905" layer="1"/>
+<wire x1="5.08" y1="-1.905" x2="5.715" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="-2.54" x2="6.985" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="-2.54" x2="7.62" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="1.905" x2="5.715" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="2.54" x2="6.985" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="2.54" x2="7.62" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-1.905" x2="8.255" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="8.255" y1="-2.54" x2="9.525" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="9.525" y1="-2.54" x2="10.16" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="1.905" x2="8.255" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="8.255" y1="2.54" x2="9.525" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="9.525" y1="2.54" x2="10.16" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="1.905" x2="7.62" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="1.905" x2="10.16" y2="-1.905" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
-<symbol name="PINH2X6">
-<wire x1="-6.35" y1="-10.16" x2="8.89" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="8.89" y1="-10.16" x2="8.89" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="8.89" y1="7.62" x2="-6.35" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="7.62" x2="-6.35" y2="-10.16" width="0.4064" layer="94"/>
-<text x="-6.35" y="8.255" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="2" x="5.08" y="5.08" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="3" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="4" x="5.08" y="2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="5" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="6" x="5.08" y="0" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="7" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="8" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="9" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="10" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="11" x="-2.54" y="-7.62" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="12" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<symbol name="PINH2X8">
+<wire x1="-6.35" y1="-12.7" x2="8.89" y2="-12.7" width="0.4064" layer="94"/>
+<wire x1="8.89" y1="-12.7" x2="8.89" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="8.89" y1="10.16" x2="-6.35" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="10.16" x2="-6.35" y2="-12.7" width="0.4064" layer="94"/>
+<text x="-6.35" y="10.795" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="7.62" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="5.08" y="7.62" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="3" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4" x="5.08" y="5.08" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="5" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="6" x="5.08" y="2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="7" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="8" x="5.08" y="0" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="9" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="10" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="11" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="12" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="13" x="-2.54" y="-7.62" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="14" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="15" x="-2.54" y="-10.16" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="16" x="5.08" y="-10.16" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PINHD-2X6/SMD" prefix="J">
+<deviceset name="PINHD-2X8/SMD" prefix="J">
 <gates>
-<gate name="G$1" symbol="PINH2X6" x="0" y="0"/>
+<gate name="G$1" symbol="PINH2X8" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="2X6/SMD">
+<device name="" package="2X8/SMD">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
 <connect gate="G$1" pin="11" pad="11"/>
 <connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
@@ -3705,7 +3731,9 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <part name="J3" library="connector" deviceset="TC2030-CC2538-BL" device="-NL"/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="J2" library="dp_devices" deviceset="CON_HEADER_2X05" device="-SMD+SHROUDED"/>
+<part name="J2" library="dp_devices" deviceset="CON_HEADER_2X05" device="-SMD+SHROUDED">
+<attribute name="DIGIKEY" value="S9185-ND"/>
+</part>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="H5" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.2"/>
@@ -3713,37 +3741,40 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <part name="H7" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.2"/>
 <part name="H8" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.2"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="J1" library="dp_devices" deviceset="CON_HEADER_2X05" device="-SMD+SHROUDED"/>
+<part name="J1" library="dp_devices" deviceset="CON_HEADER_2X05" device="-SMD+SHROUDED">
+<attribute name="DIGIKEY" value="S9185-ND"/>
+</part>
 <part name="P+11" library="supply1" deviceset="VCC" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="J4" library="headers" deviceset="PINHD-2X6/SMD" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
 <part name="U6" library="chips" deviceset="AMN" device="41121"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
+<part name="J5" library="headers" deviceset="PINHD-2X8/SMD" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<wire x1="162.56" y1="185.42" x2="162.56" y2="35.56" width="0.1524" layer="98"/>
+<wire x1="162.56" y1="185.42" x2="162.56" y2="68.58" width="0.1524" layer="98"/>
+<wire x1="162.56" y1="68.58" x2="162.56" y2="35.56" width="0.1524" layer="98"/>
 <wire x1="248.92" y1="106.68" x2="83.82" y2="106.68" width="0.1524" layer="98"/>
 <wire x1="83.82" y1="45.72" x2="83.82" y2="185.42" width="0.1524" layer="98"/>
 <wire x1="0" y1="45.72" x2="83.82" y2="45.72" width="0.1524" layer="98"/>
 <wire x1="162.56" y1="35.56" x2="248.92" y2="35.56" width="0.1524" layer="98"/>
-<wire x1="83.82" y1="45.72" x2="83.82" y2="35.56" width="0.1524" layer="98"/>
+<wire x1="83.82" y1="45.72" x2="162.56" y2="45.72" width="0.1524" layer="98"/>
 <text x="124.46" y="177.8" size="2.54" layer="98" align="bottom-center">Pressure Sensor</text>
 <text x="205.74" y="177.8" size="2.54" layer="98" align="bottom-center">9-DOF Accelerometer</text>
-<text x="121.92" y="96.52" size="2.54" layer="98" align="bottom-center">Light/UV/Proximity Sensor</text>
-<text x="205.74" y="96.52" size="2.54" layer="98" align="bottom-center">Temperature/Humidity Sensor</text>
-<wire x1="83.82" y1="35.56" x2="83.82" y2="0" width="0.1524" layer="98"/>
-<wire x1="162.56" y1="35.56" x2="83.82" y2="35.56" width="0.1524" layer="98"/>
+<text x="121.92" y="101.6" size="2.54" layer="98" align="bottom-center">Light/UV/Proximity Sensor</text>
+<text x="203.2" y="101.6" size="2.54" layer="98" align="bottom-center">Temperature/Humidity Sensor</text>
+<text x="205.74" y="63.5" size="2.54" layer="98" align="bottom-center">PIR Sensor</text>
+<wire x1="162.56" y1="68.58" x2="248.92" y2="68.58" width="0.1524" layer="98"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
 <instance part="U1" gate="G$1" x="124.46" y="132.08"/>
-<instance part="U4" gate="G$1" x="205.74" y="66.04"/>
+<instance part="U4" gate="G$1" x="208.28" y="86.36"/>
 <instance part="U2" gate="G$1" x="208.28" y="132.08"/>
 <instance part="C5" gate="G$1" x="200.66" y="162.56">
 <attribute name="DIGIKEY" x="200.66" y="162.56" size="2.54" layer="96" align="bottom-center" display="off"/>
@@ -3774,36 +3805,36 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 </instance>
 <instance part="GND9" gate="1" x="114.3" y="147.32"/>
 <instance part="GND10" gate="1" x="124.46" y="111.76"/>
-<instance part="U3" gate="G$1" x="116.84" y="68.58"/>
-<instance part="GND15" gate="1" x="99.06" y="45.72"/>
-<instance part="P+6" gate="VCC" x="99.06" y="83.82"/>
-<instance part="C7" gate="G$1" x="99.06" y="68.58">
-<attribute name="DIGIKEY" x="99.06" y="68.58" size="2.54" layer="96" align="bottom-center" display="off"/>
+<instance part="U3" gate="G$1" x="116.84" y="83.82"/>
+<instance part="GND15" gate="1" x="99.06" y="60.96"/>
+<instance part="P+6" gate="VCC" x="99.06" y="99.06"/>
+<instance part="C7" gate="G$1" x="99.06" y="83.82">
+<attribute name="DIGIKEY" x="99.06" y="83.82" size="2.54" layer="96" align="bottom-center" display="off"/>
 </instance>
-<instance part="D1" gate="G$1" x="139.7" y="63.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="136.398" y="63.5" size="1.778" layer="95" ratio="12" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="146.304" y="63.627" size="1.778" layer="96" ratio="12" rot="MR0" align="bottom-center"/>
+<instance part="D1" gate="G$1" x="139.7" y="78.74" smashed="yes" rot="MR0">
+<attribute name="NAME" x="136.398" y="78.74" size="1.778" layer="95" ratio="12" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="146.304" y="78.867" size="1.778" layer="96" ratio="12" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="D2" gate="G$1" x="139.7" y="60.96" smashed="yes" rot="MR0">
-<attribute name="NAME" x="136.398" y="60.96" size="1.778" layer="95" ratio="12" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="146.304" y="61.087" size="1.778" layer="96" ratio="12" rot="MR0" align="bottom-center"/>
+<instance part="D2" gate="G$1" x="139.7" y="76.2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="136.398" y="76.2" size="1.778" layer="95" ratio="12" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="146.304" y="76.327" size="1.778" layer="96" ratio="12" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="D3" gate="G$1" x="139.7" y="58.42" smashed="yes" rot="MR0">
-<attribute name="NAME" x="136.398" y="58.42" size="1.778" layer="95" ratio="12" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="146.304" y="58.547" size="1.778" layer="96" ratio="12" rot="MR0" align="bottom-center"/>
+<instance part="D3" gate="G$1" x="139.7" y="73.66" smashed="yes" rot="MR0">
+<attribute name="NAME" x="136.398" y="73.66" size="1.778" layer="95" ratio="12" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="146.304" y="73.787" size="1.778" layer="96" ratio="12" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="R1" gate="G$1" x="149.86" y="73.66" rot="R90">
-<attribute name="DIGIKEY" x="149.86" y="73.66" size="2.54" layer="96" rot="R90" align="bottom-center" display="off"/>
+<instance part="R1" gate="G$1" x="149.86" y="88.9" rot="R90">
+<attribute name="DIGIKEY" x="149.86" y="88.9" size="2.54" layer="96" rot="R90" align="bottom-center" display="off"/>
 </instance>
-<instance part="C10" gate="G$1" x="149.86" y="53.34">
-<attribute name="DIGIKEY" x="149.86" y="53.34" size="2.54" layer="96" align="bottom-center" display="off"/>
+<instance part="C10" gate="G$1" x="149.86" y="68.58">
+<attribute name="DIGIKEY" x="149.86" y="68.58" size="2.54" layer="96" align="bottom-center" display="off"/>
 </instance>
-<instance part="GND16" gate="1" x="149.86" y="45.72"/>
-<instance part="P+7" gate="VCC" x="149.86" y="83.82"/>
-<instance part="GND17" gate="1" x="193.04" y="53.34"/>
-<instance part="P+8" gate="VCC" x="193.04" y="76.2"/>
-<instance part="C8" gate="G$1" x="187.96" y="66.04">
-<attribute name="DIGIKEY" x="187.96" y="66.04" size="2.54" layer="96" align="bottom-center" display="off"/>
+<instance part="GND16" gate="1" x="149.86" y="60.96"/>
+<instance part="P+7" gate="VCC" x="149.86" y="99.06"/>
+<instance part="GND17" gate="1" x="195.58" y="73.66"/>
+<instance part="P+8" gate="VCC" x="195.58" y="96.52"/>
+<instance part="C8" gate="G$1" x="190.5" y="86.36">
+<attribute name="DIGIKEY" x="190.5" y="86.36" size="2.54" layer="96" align="bottom-center" display="off"/>
 </instance>
 <instance part="R4" gate="G$1" x="66.04" y="81.28" rot="R90">
 <attribute name="DIGIKEY" x="66.04" y="81.28" size="2.54" layer="96" rot="R90" align="bottom-center" display="off"/>
@@ -3819,23 +3850,35 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <instance part="J3" gate="G$1" x="27.94" y="66.04"/>
 <instance part="P+10" gate="VCC" x="12.7" y="73.66"/>
 <instance part="GND13" gate="1" x="12.7" y="55.88"/>
-<instance part="J2" gate="J" x="66.04" y="20.32"/>
-<instance part="P+4" gate="VCC" x="60.96" y="30.48"/>
-<instance part="GND11" gate="1" x="60.96" y="10.16"/>
-<instance part="H5" gate="G$1" x="119.38" y="33.02"/>
-<instance part="H6" gate="G$1" x="119.38" y="27.94"/>
-<instance part="H7" gate="G$1" x="119.38" y="22.86"/>
-<instance part="H8" gate="G$1" x="119.38" y="17.78"/>
-<instance part="GND14" gate="1" x="114.3" y="12.7"/>
-<instance part="J1" gate="J" x="25.4" y="20.32"/>
-<instance part="P+11" gate="VCC" x="20.32" y="30.48"/>
-<instance part="GND18" gate="1" x="20.32" y="10.16"/>
-<instance part="J4" gate="G$1" x="-45.72" y="-10.16"/>
-<instance part="GND19" gate="1" x="-30.48" y="-22.86"/>
-<instance part="P+12" gate="VCC" x="-63.5" y="-12.7"/>
-<instance part="U6" gate="G$1" x="-53.34" y="81.28"/>
-<instance part="P+1" gate="VCC" x="-43.18" y="88.9"/>
-<instance part="GND1" gate="1" x="-43.18" y="73.66"/>
+<instance part="J2" gate="J" x="104.14" y="22.86">
+<attribute name="DIGIKEY" x="104.14" y="22.86" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="P+4" gate="VCC" x="99.06" y="33.02"/>
+<instance part="GND11" gate="1" x="99.06" y="12.7"/>
+<instance part="H5" gate="G$1" x="139.7" y="33.02" smashed="yes">
+<attribute name="NAME" x="142.494" y="33.6042" size="1.778" layer="95"/>
+</instance>
+<instance part="H6" gate="G$1" x="139.7" y="27.94" smashed="yes">
+<attribute name="NAME" x="142.494" y="28.5242" size="1.778" layer="95"/>
+</instance>
+<instance part="H7" gate="G$1" x="139.7" y="22.86" smashed="yes">
+<attribute name="NAME" x="142.494" y="23.4442" size="1.778" layer="95"/>
+</instance>
+<instance part="H8" gate="G$1" x="139.7" y="17.78" smashed="yes">
+<attribute name="NAME" x="142.494" y="18.3642" size="1.778" layer="95"/>
+</instance>
+<instance part="GND14" gate="1" x="134.62" y="12.7"/>
+<instance part="J1" gate="J" x="66.04" y="22.86">
+<attribute name="DIGIKEY" x="66.04" y="22.86" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="P+11" gate="VCC" x="60.96" y="33.02"/>
+<instance part="GND18" gate="1" x="60.96" y="12.7"/>
+<instance part="GND19" gate="1" x="50.8" y="25.4"/>
+<instance part="P+12" gate="VCC" x="15.24" y="38.1"/>
+<instance part="U6" gate="G$1" x="203.2" y="50.8"/>
+<instance part="P+1" gate="VCC" x="213.36" y="58.42"/>
+<instance part="GND1" gate="1" x="213.36" y="43.18"/>
+<instance part="J5" gate="G$1" x="25.4" y="25.4"/>
 </instances>
 <busses>
 </busses>
@@ -3887,28 +3930,28 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VDD"/>
-<wire x1="104.14" y1="76.2" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="76.2" x2="99.06" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="91.44" x2="99.06" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="91.44" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="VCC" pin="VCC"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="71.12" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
-<junction x="99.06" y="76.2"/>
+<wire x1="99.06" y1="86.36" x2="99.06" y2="91.44" width="0.1524" layer="91"/>
+<junction x="99.06" y="91.44"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="78.74" x2="149.86" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="93.98" x2="149.86" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="VCC"/>
-<wire x1="195.58" y1="68.58" x2="193.04" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="68.58" x2="193.04" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="88.9" x2="195.58" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="88.9" x2="195.58" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="P+8" gate="VCC" pin="VCC"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="71.12" x2="193.04" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="68.58" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="71.12" x2="193.04" y2="71.12" width="0.1524" layer="91"/>
-<junction x="193.04" y="71.12"/>
+<wire x1="195.58" y1="91.44" x2="195.58" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="88.9" x2="190.5" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="91.44" x2="195.58" y2="91.44" width="0.1524" layer="91"/>
+<junction x="195.58" y="91.44"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -3937,24 +3980,26 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <segment>
 <pinref part="J2" gate="J" pin="1"/>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
-<wire x1="66.04" y1="25.4" x2="60.96" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="25.4" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="27.94" x2="99.06" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="27.94" x2="99.06" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J" pin="1"/>
 <pinref part="P+11" gate="VCC" pin="VCC"/>
-<wire x1="25.4" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="25.4" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="P+12" gate="VCC" pin="VCC"/>
-<wire x1="-63.5" y1="-15.24" x2="-63.5" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="27.94" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="27.94" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="VCC"/>
-<wire x1="-45.72" y1="83.82" x2="-43.18" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="83.82" x2="-43.18" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="53.34" x2="213.36" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="53.34" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="P+12" gate="VCC" pin="VCC"/>
+<wire x1="15.24" y1="35.56" x2="15.24" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="33.02" x2="15.24" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -4006,28 +4051,28 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="GND"/>
-<wire x1="104.14" y1="58.42" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="58.42" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="73.66" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="73.66" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="63.5" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
-<junction x="99.06" y="58.42"/>
+<wire x1="99.06" y1="78.74" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
+<junction x="99.06" y="73.66"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="ANODE"/>
-<wire x1="149.86" y1="50.8" x2="149.86" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="66.04" x2="149.86" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="GND"/>
-<wire x1="195.58" y1="63.5" x2="193.04" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="63.5" x2="193.04" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="83.82" x2="195.58" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="83.82" x2="195.58" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="58.42" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="60.96" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="58.42" x2="193.04" y2="58.42" width="0.1524" layer="91"/>
-<junction x="193.04" y="58.42"/>
+<wire x1="195.58" y1="78.74" x2="195.58" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="81.28" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="78.74" x2="195.58" y2="78.74" width="0.1524" layer="91"/>
+<junction x="195.58" y="78.74"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="GND"/>
@@ -4045,38 +4090,44 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <segment>
 <pinref part="J2" gate="J" pin="9"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="66.04" y1="15.24" x2="60.96" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="15.24" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="17.78" x2="99.06" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="17.78" x2="99.06" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="H5" gate="G$1" pin="MOUNT"/>
-<wire x1="116.84" y1="33.02" x2="114.3" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="33.02" x2="114.3" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="33.02" x2="134.62" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="33.02" x2="134.62" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="H6" gate="G$1" pin="MOUNT"/>
-<wire x1="114.3" y1="27.94" x2="116.84" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="27.94" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
-<junction x="114.3" y="27.94"/>
+<wire x1="134.62" y1="27.94" x2="137.16" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="27.94" x2="134.62" y2="22.86" width="0.1524" layer="91"/>
+<junction x="134.62" y="27.94"/>
 <pinref part="H7" gate="G$1" pin="MOUNT"/>
-<wire x1="114.3" y1="22.86" x2="116.84" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="22.86" x2="114.3" y2="17.78" width="0.1524" layer="91"/>
-<junction x="114.3" y="22.86"/>
+<wire x1="134.62" y1="22.86" x2="137.16" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="22.86" x2="134.62" y2="17.78" width="0.1524" layer="91"/>
+<junction x="134.62" y="22.86"/>
 <pinref part="H8" gate="G$1" pin="MOUNT"/>
-<wire x1="114.3" y1="17.78" x2="116.84" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="17.78" x2="114.3" y2="15.24" width="0.1524" layer="91"/>
-<junction x="114.3" y="17.78"/>
+<wire x1="134.62" y1="17.78" x2="137.16" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="17.78" x2="134.62" y2="15.24" width="0.1524" layer="91"/>
+<junction x="134.62" y="17.78"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J" pin="9"/>
 <pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="25.4" y1="15.24" x2="20.32" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="15.24" x2="20.32" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="17.78" x2="60.96" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="17.78" x2="60.96" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="GND"/>
-<wire x1="-45.72" y1="78.74" x2="-43.18" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="78.74" x2="-43.18" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="48.26" x2="213.36" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="48.26" x2="213.36" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="2"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+<wire x1="30.48" y1="33.02" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="33.02" x2="50.8" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -4094,15 +4145,15 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <label x="228.6" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="B4"/>
-<wire x1="33.02" y1="88.9" x2="33.02" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="83.82" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
-<label x="38.1" y="83.82" size="1.27" layer="95" xref="yes"/>
+<pinref part="U5" gate="G$1" pin="B3"/>
+<wire x1="35.56" y1="88.9" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="86.36" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
+<label x="38.1" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="8"/>
-<wire x1="-35.56" y1="-12.7" x2="-40.64" y2="-12.7" width="0.1524" layer="91"/>
-<label x="-35.56" y="-12.7" size="1.27" layer="95" xref="yes"/>
+<pinref part="J5" gate="G$1" pin="7"/>
+<wire x1="17.78" y1="25.4" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
+<label x="17.78" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
@@ -4122,9 +4173,9 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <label x="55.88" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="7"/>
-<wire x1="-53.34" y1="-12.7" x2="-48.26" y2="-12.7" width="0.1524" layer="91"/>
-<label x="-53.34" y="-12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J5" gate="G$1" pin="12"/>
+<wire x1="35.56" y1="20.32" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
+<label x="35.56" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -4144,9 +4195,9 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <label x="55.88" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="6"/>
-<wire x1="-35.56" y1="-10.16" x2="-40.64" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-35.56" y="-10.16" size="1.27" layer="95" xref="yes"/>
+<pinref part="J5" gate="G$1" pin="9"/>
+<wire x1="17.78" y1="22.86" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
+<label x="17.78" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -4166,9 +4217,9 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <label x="55.88" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="5"/>
-<wire x1="-48.26" y1="-10.16" x2="-53.34" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-53.34" y="-10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J5" gate="G$1" pin="10"/>
+<wire x1="35.56" y1="22.86" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
+<label x="35.56" y="22.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ACCEL_INT" class="0">
@@ -4178,15 +4229,15 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <label x="228.6" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="B3"/>
-<wire x1="35.56" y1="88.9" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="86.36" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
-<label x="38.1" y="86.36" size="1.27" layer="95" xref="yes"/>
+<pinref part="U5" gate="G$1" pin="B4"/>
+<wire x1="33.02" y1="88.9" x2="33.02" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="83.82" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
+<label x="38.1" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="4"/>
-<wire x1="-35.56" y1="-7.62" x2="-40.64" y2="-7.62" width="0.1524" layer="91"/>
-<label x="-35.56" y="-7.62" size="1.27" layer="95" xref="yes"/>
+<pinref part="J5" gate="G$1" pin="8"/>
+<wire x1="35.56" y1="25.4" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
+<label x="35.56" y="25.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="!PRESSURE_CS" class="0">
@@ -4196,19 +4247,14 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <label x="144.78" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="-48.26" y1="-5.08" x2="-53.34" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-53.34" y="-5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U5" gate="G$1" pin="C1"/>
 <wire x1="53.34" y1="134.62" x2="55.88" y2="134.62" width="0.1524" layer="91"/>
 <label x="55.88" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="11"/>
-<wire x1="-48.26" y1="-17.78" x2="-53.34" y2="-17.78" width="0.1524" layer="91"/>
-<label x="-53.34" y="-17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J5" gate="G$1" pin="15"/>
+<wire x1="17.78" y1="15.24" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
+<label x="17.78" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PRESSURE_INT" class="0">
@@ -4218,31 +4264,26 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <label x="104.14" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="2"/>
-<wire x1="-35.56" y1="-5.08" x2="-40.64" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-35.56" y="-5.08" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U5" gate="G$1" pin="C0"/>
 <wire x1="53.34" y1="137.16" x2="55.88" y2="137.16" width="0.1524" layer="91"/>
 <label x="55.88" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="12"/>
-<wire x1="-40.64" y1="-17.78" x2="-33.02" y2="-17.78" width="0.1524" layer="91"/>
-<label x="-33.02" y="-17.78" size="1.27" layer="95" xref="yes"/>
+<pinref part="J5" gate="G$1" pin="16"/>
+<wire x1="35.56" y1="15.24" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
+<label x="35.56" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="SDA"/>
-<wire x1="129.54" y1="76.2" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
-<label x="132.08" y="76.2" size="1.27" layer="95" xref="yes"/>
+<wire x1="129.54" y1="91.44" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
+<label x="132.08" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="SDA"/>
-<wire x1="215.9" y1="68.58" x2="218.44" y2="68.58" width="0.1524" layer="91"/>
-<label x="218.44" y="68.58" size="1.27" layer="95" xref="yes"/>
+<wire x1="218.44" y1="88.9" x2="220.98" y2="88.9" width="0.1524" layer="91"/>
+<label x="220.98" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <label x="66.04" y="73.66" size="1.27" layer="95" rot="R270" xref="yes"/>
@@ -4255,21 +4296,21 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <label x="55.88" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="10"/>
-<wire x1="-35.56" y1="-15.24" x2="-40.64" y2="-15.24" width="0.1524" layer="91"/>
-<label x="-35.56" y="-15.24" size="1.27" layer="95" xref="yes"/>
+<pinref part="J5" gate="G$1" pin="14"/>
+<wire x1="35.56" y1="17.78" x2="30.48" y2="17.78" width="0.1524" layer="91"/>
+<label x="35.56" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="SCL"/>
-<wire x1="129.54" y1="73.66" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
-<label x="132.08" y="73.66" size="1.27" layer="95" xref="yes"/>
+<wire x1="129.54" y1="88.9" x2="132.08" y2="88.9" width="0.1524" layer="91"/>
+<label x="132.08" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="SCL"/>
-<wire x1="215.9" y1="63.5" x2="218.44" y2="63.5" width="0.1524" layer="91"/>
-<label x="218.44" y="63.5" size="1.27" layer="95" xref="yes"/>
+<wire x1="218.44" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
+<label x="220.98" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <label x="73.66" y="73.66" size="1.27" layer="95" rot="R270" xref="yes"/>
@@ -4282,16 +4323,16 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <label x="55.88" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="3"/>
-<wire x1="-48.26" y1="-7.62" x2="-53.34" y2="-7.62" width="0.1524" layer="91"/>
-<label x="-53.34" y="-7.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J5" gate="G$1" pin="11"/>
+<wire x1="17.78" y1="20.32" x2="22.86" y2="20.32" width="0.1524" layer="91"/>
+<label x="17.78" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LIGHT_INT" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="INT"/>
-<wire x1="129.54" y1="68.58" x2="132.08" y2="68.58" width="0.1524" layer="91"/>
-<label x="132.08" y="68.58" size="1.27" layer="95" xref="yes"/>
+<wire x1="129.54" y1="83.82" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
+<label x="132.08" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="C2"/>
@@ -4299,47 +4340,47 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <label x="55.88" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="9"/>
-<wire x1="-53.34" y1="-15.24" x2="-48.26" y2="-15.24" width="0.1524" layer="91"/>
-<label x="-53.34" y="-15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J5" gate="G$1" pin="13"/>
+<wire x1="17.78" y1="17.78" x2="22.86" y2="17.78" width="0.1524" layer="91"/>
+<label x="17.78" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="CATHODE"/>
 <pinref part="U3" gate="G$1" pin="LED1"/>
-<wire x1="137.16" y1="63.5" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="78.74" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="CATHODE"/>
 <pinref part="U3" gate="G$1" pin="LED2"/>
-<wire x1="137.16" y1="60.96" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="76.2" x2="129.54" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="D3" gate="G$1" pin="CATHODE"/>
 <pinref part="U3" gate="G$1" pin="LED3"/>
-<wire x1="137.16" y1="58.42" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="73.66" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="ANODE"/>
-<wire x1="142.24" y1="63.5" x2="149.86" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="63.5" x2="149.86" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="78.74" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="78.74" x2="149.86" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="ANODE"/>
-<wire x1="142.24" y1="60.96" x2="149.86" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="60.96" x2="149.86" y2="63.5" width="0.1524" layer="91"/>
-<junction x="149.86" y="63.5"/>
+<wire x1="142.24" y1="76.2" x2="149.86" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="76.2" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
+<junction x="149.86" y="78.74"/>
 <pinref part="D3" gate="G$1" pin="ANODE"/>
-<wire x1="142.24" y1="58.42" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="58.42" x2="149.86" y2="60.96" width="0.1524" layer="91"/>
-<junction x="149.86" y="60.96"/>
-<wire x1="149.86" y1="58.42" x2="149.86" y2="55.88" width="0.1524" layer="91"/>
-<junction x="149.86" y="58.42"/>
+<wire x1="142.24" y1="73.66" x2="149.86" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="73.66" x2="149.86" y2="76.2" width="0.1524" layer="91"/>
+<junction x="149.86" y="76.2"/>
+<wire x1="149.86" y1="73.66" x2="149.86" y2="71.12" width="0.1524" layer="91"/>
+<junction x="149.86" y="73.66"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="C10" gate="G$1" pin="CATHODE"/>
 </segment>
@@ -4347,13 +4388,13 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <net name="!BBB_CS" class="0">
 <segment>
 <pinref part="J2" gate="J" pin="8"/>
-<wire x1="76.2" y1="17.78" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
-<label x="76.2" y="17.78" size="1.27" layer="95" xref="yes"/>
+<wire x1="114.3" y1="20.32" x2="111.76" y2="20.32" width="0.1524" layer="91"/>
+<label x="114.3" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J" pin="8"/>
-<wire x1="35.56" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
-<label x="35.56" y="17.78" size="1.27" layer="95" xref="yes"/>
+<wire x1="76.2" y1="20.32" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
+<label x="76.2" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="ADC6"/>
@@ -4365,13 +4406,13 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <net name="BBB_INT" class="0">
 <segment>
 <pinref part="J2" gate="J" pin="10"/>
-<wire x1="76.2" y1="15.24" x2="73.66" y2="15.24" width="0.1524" layer="91"/>
-<label x="76.2" y="15.24" size="1.27" layer="95" xref="yes"/>
+<wire x1="114.3" y1="17.78" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
+<label x="114.3" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J" pin="10"/>
-<wire x1="35.56" y1="15.24" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
-<label x="35.56" y="15.24" size="1.27" layer="95" xref="yes"/>
+<wire x1="76.2" y1="17.78" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
+<label x="76.2" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="ADC7"/>
@@ -4383,25 +4424,25 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <net name="5V" class="0">
 <segment>
 <pinref part="J2" gate="J" pin="3"/>
-<wire x1="63.5" y1="22.86" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
-<label x="63.5" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="101.6" y1="25.4" x2="104.14" y2="25.4" width="0.1524" layer="91"/>
+<label x="101.6" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J" pin="3"/>
-<wire x1="22.86" y1="22.86" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
-<label x="22.86" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="63.5" y1="25.4" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
+<label x="63.5" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BBB_MOSI" class="0">
 <segment>
 <pinref part="J2" gate="J" pin="2"/>
-<wire x1="76.2" y1="25.4" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
-<label x="76.2" y="25.4" size="1.27" layer="95" xref="yes"/>
+<wire x1="114.3" y1="27.94" x2="111.76" y2="27.94" width="0.1524" layer="91"/>
+<label x="114.3" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J" pin="2"/>
-<wire x1="35.56" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
-<label x="35.56" y="25.4" size="1.27" layer="95" xref="yes"/>
+<wire x1="76.2" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
+<label x="76.2" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="ADC3"/>
@@ -4413,13 +4454,13 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <net name="BBB_MISO" class="0">
 <segment>
 <pinref part="J2" gate="J" pin="4"/>
-<wire x1="76.2" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
-<label x="76.2" y="22.86" size="1.27" layer="95" xref="yes"/>
+<wire x1="114.3" y1="25.4" x2="111.76" y2="25.4" width="0.1524" layer="91"/>
+<label x="114.3" y="25.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J" pin="4"/>
-<wire x1="35.56" y1="22.86" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
-<label x="35.56" y="22.86" size="1.27" layer="95" xref="yes"/>
+<wire x1="76.2" y1="25.4" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
+<label x="76.2" y="25.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="ADC4"/>
@@ -4437,13 +4478,13 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 </segment>
 <segment>
 <pinref part="J2" gate="J" pin="6"/>
-<wire x1="76.2" y1="20.32" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
-<label x="76.2" y="20.32" size="1.27" layer="95" xref="yes"/>
+<wire x1="114.3" y1="22.86" x2="111.76" y2="22.86" width="0.1524" layer="91"/>
+<label x="114.3" y="22.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J" pin="6"/>
-<wire x1="35.56" y1="20.32" x2="33.02" y2="20.32" width="0.1524" layer="91"/>
-<label x="35.56" y="20.32" size="1.27" layer="95" xref="yes"/>
+<wire x1="76.2" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
+<label x="76.2" y="22.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BTLDR_TX" class="0">
@@ -4499,26 +4540,31 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <net name="BBB_GPIO" class="0">
 <segment>
 <pinref part="J2" gate="J" pin="7"/>
-<wire x1="63.5" y1="17.78" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
-<label x="63.5" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="101.6" y1="20.32" x2="104.14" y2="20.32" width="0.1524" layer="91"/>
+<label x="101.6" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J" pin="7"/>
-<wire x1="22.86" y1="17.78" x2="25.4" y2="17.78" width="0.1524" layer="91"/>
-<label x="22.86" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="63.5" y1="20.32" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
+<label x="63.5" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PIR_OUT" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="OUT"/>
-<wire x1="-45.72" y1="81.28" x2="-43.18" y2="81.28" width="0.1524" layer="91"/>
-<label x="-43.18" y="81.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="210.82" y1="50.8" x2="213.36" y2="50.8" width="0.1524" layer="91"/>
+<label x="213.36" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="B5"/>
 <wire x1="30.48" y1="88.9" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="38.1" y2="81.28" width="0.1524" layer="91"/>
 <label x="38.1" y="81.28" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="5"/>
+<wire x1="17.78" y1="27.94" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
+<label x="17.78" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="UN" class="0">
@@ -4527,6 +4573,27 @@ The RX/TX switch happens on the programmer board, so when using this connect the
 <wire x1="27.94" y1="88.9" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="78.74" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
 <label x="38.1" y="78.74" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="J5" gate="G$1" pin="3"/>
+<wire x1="17.78" y1="30.48" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
+<label x="17.78" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="J5" gate="G$1" pin="4"/>
+<wire x1="35.56" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
+<label x="35.56" y="30.48" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="UNUSED3" class="0">
+<segment>
+<pinref part="J5" gate="G$1" pin="6"/>
+<wire x1="35.56" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
+<label x="35.56" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
