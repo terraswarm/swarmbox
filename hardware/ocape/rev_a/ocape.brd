@@ -2195,7 +2195,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="H5" pad="B3,2"/>
 <wire x1="43.434" y1="46.228" x2="52.705" y2="66.04" width="0" layer="19" extent="1-1"/>
 <wire x1="30.226" y1="56.642" x2="43.434" y2="46.228" width="0" layer="19" extent="1-1"/>
-<wire x1="43.434" y1="13.97" x2="11.176" y2="13.97" width="0" layer="19" extent="1-1"/>
+<wire x1="43.434" y1="13.97" x2="43.434" y2="46.228" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOSI">
 <contactref element="P9/P8" pad="P9_18"/>
